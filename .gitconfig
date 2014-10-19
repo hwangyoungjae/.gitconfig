@@ -1,5 +1,6 @@
 [alias]
 	co = checkout
+	coo = !git fetch && git checkout
 	br = branch
 	st = status
 	aa = add -A .
@@ -19,5 +20,4 @@
 	plos = pull origin staging
 	plom = pull origin master
 	ploh = pull origin HEAD
-	coo = fetch && checkout
 	unstage = reset --soft HEAD^
