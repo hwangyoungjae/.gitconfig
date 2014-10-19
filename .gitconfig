@@ -1,0 +1,23 @@
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	aa = add -A .
+	cm = commit -m
+	aacm = !git add -A . && git commit -m
+	amend = commit --amend -m
+	dev = !git checkout dev && git pull origin dev
+	staging = !git checkout staging && git pull origin staging
+	master = !git checkout master && git pull origin 
+	po = push origin
+	pod = push origin dev
+	pos = push origin staging
+	pom = push origin master
+	poh = push origin HEAD
+	plo = pull origin
+	plod = pull origin dev
+	plos = pull origin staging
+	plom = pull origin master
+	ploh = pull origin HEAD
+	coo = fetch && checkout
+	unstage = reset --soft HEAD^
