@@ -3,6 +3,9 @@
 	cob = checkout -b
 	coo = !git fetch && git checkout
 	br = branch
+	brd = branch -d
+	brD = branch -D
+	merged = branch --merged
 	st = status
 	aa = add -A .
 	cm = commit -m
