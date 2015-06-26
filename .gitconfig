@@ -6,6 +6,7 @@
 	brd = branch -d
 	brD = branch -D
 	merged = branch --merged
+	dmerged = "git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 	st = status
 	aa = add -A .
 	cm = commit -m
