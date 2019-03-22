@@ -29,7 +29,7 @@
 	plom = pull origin master
 	ploh = pull origin HEAD
 	unstage = reset --soft HEAD^
-	ls = log --pretty=format:\"%C(yellow)%h %C(white)<%s> %C(green)[%cn]%C(auto)%d\" --graph --color
+	ls = log --pretty=format:\"%C(yellow)%h %C(white)<%s> %C(green)[%cn]%C(auto)%d\" --graph --color -30
 	ll = log --pretty=format:\"%C(yellow)%H %C(white)<%s> %C(green)[%cn]%C(auto)%d\" --numstat --color
 	f = "!git ls-files | grep -i"
 	gr = grep -Ii
