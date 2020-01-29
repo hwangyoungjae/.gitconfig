@@ -7,5 +7,5 @@ wget https://raw.githubusercontent.com/hwangyoungjae/.gitconfig/master/.gitconfi
 
 # PS1 setup
 ```bash
-curl -L 192.168.0.105:8000/test.sh | sh
+curl -L https://raw.githubusercontent.com/hwangyoungjae/.gitconfig/master/ps1/centos7.sh | sh
 ```
